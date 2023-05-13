@@ -6,6 +6,7 @@
 	<title>test</title>
 </head>
 <body>
-	<a href="https://alexis-wamster.github.io/site2/html/accueil.php">acceuil</a>
+	<?php include("php/votre_fichier_php.php"); ?>
+	<p>Le nom est : <?php echo $nom; ?></p>
 </body>
 </html>
